@@ -16,7 +16,12 @@ class CalTest {
     }
 
 
-//    @Test
-//    void subtract() {
-//    }
+    @Test
+    void subtract() {
+        Cal cal = new Cal();
+        int a = 5;
+        int b = 6;
+        int d = cal.subtract(a,b);
+        assertEquals(a - b,d);
+    }
 }
